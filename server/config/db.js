@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const connectDB = async () => {
     try {
         await mongoose.connect(`${process.env.MONGODB_URI}domiko`,{
-   serverSelectionTimeoutMS: 50000,
+   serverSelectionTimeoutMS: 100000,
 });
     } catch (error) {
         console.log(error.message);
