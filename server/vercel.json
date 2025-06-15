@@ -7,12 +7,6 @@
       ]
     }
   },
-  "builds": [
-    {
-      "src": "api/api.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
