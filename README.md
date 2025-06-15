@@ -3,6 +3,9 @@
 A full-featured **blogging platform** built using **Node.js**, **Express**, and **MongoDB**, and deployed on **Vercel** using **serverless functions**. Includes admin login, comment moderation, and a lightweight JSON/Markdown-based blog system. Designed to run efficiently on **free plans** like Vercel + MongoDB Atlas.
 
 ---
+## AdminLogin Credentials 
+⚠️Login id :- admin@example.com
+⚠️Password:- 123456789
 
 ## Screenshot
 ![Domiko Screenshot ](https://github.com/Prince1895/Domiko/blob/main/client/src/assets/Screenshot%202025-06-16%20013358.png)
