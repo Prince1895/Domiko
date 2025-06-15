@@ -1,15 +1,22 @@
 {
   "version": 2,
+  "functions": {
+    "api/api.js": {
+      "includeFiles": [
+        "server/**"
+      ]
+    }
+  },
   "builds": [
     {
-      "src": "api.js",
+      "src": "api/api.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api.js"
+      "dest": "api/api.js"
     }
   ]
 }
