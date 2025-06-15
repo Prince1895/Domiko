@@ -21,13 +21,10 @@ const app = express();
   app.use('/api/admin', adminRoutes);
   app.use('/api/blog', blogRouter);
 
-  // Don't start listening here if you're deploying to Vercel
-  if (process.env.NODE_ENV !== 'production') {
-    const PORT = process.env.PORT || 3001;
-    app.listen(PORT, () => {
-      console.log(`Server is running on port ${PORT}`);
-    });
-  }
+  const PORT = process.env.PORT || 3001;
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
 })();
 
 export default app;
