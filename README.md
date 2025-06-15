@@ -8,6 +8,11 @@ A full-featured **blogging platform** built using **Node.js**, **Express**, and 
 ![Domiko Screenshot ](https://github.com/Prince1895/Domiko/blob/main/client/src/assets/Screenshot%202025-06-16%20013358.png)
 ![Domiko Screenshot- mobile view](https://github.com/Prince1895/Domiko/blob/main/client/src/assets/WhatsApp%20Image%202025-06-16%20at%2002.18.54_83e10c0c.jpg)
 
+## 🔗 Live Demo
+
+👉 [Click here to view Domiko live](https://domiko-client.vercel.app/)
+
+
 
 ## 🚀 Features
 
